@@ -1,4 +1,5 @@
 using ITensors
+using ITensorMPS
 using ITensorUnicodePlots
 using Graphs
 using LayeredLayouts
