@@ -14,11 +14,11 @@ x = Index([QN("Sz", 0) => 2]; tags="X")
 y = Index([QN("Sz", 0) => 2]; tags="Y")
 
 n = 2
-ψn1n2 = randomITensor(l⃗[n - 1], s⃗[n], s⃗[n + 1], l⃗[n + 1], dag(x), dag(y))
-hn1 = randomITensor(dag(h⃗[n - 1]), s⃗[n]', dag(s⃗[n]), h⃗[n], x, y)
-hn2 = randomITensor(dag(h⃗[n]), s⃗[n + 1]', dag(s⃗[n + 1]), h⃗[n + 1])
-ELn0 = randomITensor(l⃗[n - 1]', h⃗[n - 1], dag(l⃗[n - 1]))
-ERn2 = randomITensor(l⃗[n + 1]', dag(h⃗[n + 1]), dag(l⃗[n + 1]))
+ψn1n2 = random_itensor(l⃗[n - 1], s⃗[n], s⃗[n + 1], l⃗[n + 1], dag(x), dag(y))
+hn1 = random_itensor(dag(h⃗[n - 1]), s⃗[n]', dag(s⃗[n]), h⃗[n], x, y)
+hn2 = random_itensor(dag(h⃗[n]), s⃗[n + 1]', dag(s⃗[n + 1]), h⃗[n + 1])
+ELn0 = random_itensor(l⃗[n - 1]', h⃗[n - 1], dag(l⃗[n - 1]))
+ERn2 = random_itensor(l⃗[n + 1]', dag(h⃗[n + 1]), dag(l⃗[n + 1]))
 
 edge_labels = (; plevs=true)
 
