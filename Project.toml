@@ -1,7 +1,7 @@
 name = "ITensorUnicodePlots"
 uuid = "73163f41-4a9e-479f-8353-73bf94dbd758"
 authors = ["Matthew Fishman <mfishman@flatironinstitute.org>"]
-version = "0.1.5"
+version = "0.1.6"
 
 [deps]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
@@ -19,7 +19,7 @@ NetworkLayout = "0.4.3"
 Reexport = "1.2.2"
 Statistics = "1"
 UnicodePlots = "2.5.0, 3"
-julia = "1.6"
+julia = "1.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

@@ -49,12 +49,13 @@ using Test
 
   by = isequal
 
-  @test_reference "references/R.$extension" figR by = by
-  @test_reference "references/R_tags.$extension" figR_tags by = by
-  @test_reference "references/R1.$extension" figR1 by = by
-  @test_reference "references/R2.$extension" figR2 by = by
-  @test_reference "references/tn.$extension" fig_tn by = by
-  @test_reference "references/T.$extension" figT by = by
+  version = "v$(VERSION.major).$(VERSION.minor)"
+  @test_reference "references_$version/R.$extension" figR by = by
+  @test_reference "references_$version/R_tags.$extension" figR_tags by = by
+  @test_reference "references_$version/R1.$extension" figR1 by = by
+  @test_reference "references_$version/R2.$extension" figR2 by = by
+  @test_reference "references_$version/tn.$extension" fig_tn by = by
+  @test_reference "references_$version/T.$extension" figT by = by
 
   @test_throws DimensionMismatch @visualize fig R1 * hn2 * ERn2 vertex_labels = ["T1", "T2"]
 end
