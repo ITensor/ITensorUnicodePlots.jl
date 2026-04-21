@@ -1,3 +1,3 @@
 var documenterSearchIndex = {"docs":
-[{"location":"#ITensorUnicodePlots","page":"Home","title":"ITensorUnicodePlots","text":"Documentation for ITensorUnicodePlots.\n\n","category":"section"}]
+[{"category":"section","location":"#ITensorUnicodePlots","page":"Home","text":"Documentation for ITensorUnicodePlots.\n\n","title":"ITensorUnicodePlots"}]
 }
